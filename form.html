@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="icon" type="x-icon" href="/OIP.jpeg">
+    <style>
+        button:hover{background-color: black;color: white;border-radius: 15px; width: 100px; height: 25px;cursor: pointer;}
+        
+    </style>
+    
+</head>
+<body style="margin-top: 20px; margin-left: 30px; margin-right: 20px; margin-bottom: 20px;">
+
+    <header>
+        <h1 style=text-align:center; back-gr>SAMPLE FORM</h1>
+    </header>
+
+    <main>
+        <form action="/action.php" style="font-size: large;">
+
+
+        <h3 style="font-family: 'Times New Roman', Times, serif;" >PERSONAL INFORMATION</h3>
+        <HR>
+            <BR>
+                
+        
+          <pre>First Name    <input style="text-align: center; width: 250px;" type="text" placeholder="First Name"; required></pre>
+          <pre>Last Name     <input style="text-align: center; width: 250px;" type="text" placeholder="Last Name";></pre>
+          <pre>Father Name   <input style="text-align: center; width: 250px;" type="text" placeholder="Father Name";></pre>
+          <pre>Mother Name   <input style="text-align: center; width: 250px;" type="text" placeholder="Mother Name";></pre>
+          <pre>Mobile Number <input style="text-align: center; width: 250px;" type="tel" placeholder="9876-***-***";></pre>
+          <pre>MAIL ID       <input style="text-align: center; width: 250px;" type="email" placeholder="example12@gmail.com"></pre>
+        </form>
+        <br>
+        <h3 style="font-family: 'Times New Roman', Times, serif;" >EDUCATION</h3>
+        <HR>
+        <br>
+        <p style="font-size: large;"><b><u>10<sup>th</sup> class board</u></b></p>
+        <label>
+             <input type="radio" value="SSC" name="board">SSC
+        </label>
+        <br>
+        <label>
+            <input type="radio" value="CBSE" name="board">CBSE
+        </label>
+        <br>
+        <label>
+            <input type="radio" value="ICSE" name="board">ICSE
+        </label>
+        <br>
+        <p style="font-size: large;">Year of passing <input style="height: 25px; text-align: center;" type="date"></p>
+        <p style="font-size: large;">CGPA <input style="width: 30px; text-align: center;" type="number" ></p>
+
+        <br>
+        <p style="font-size: large;"><B><U>DIPLOMA</U></B></p>
+        <label>
+            BOARD <input style="width: 250PX; text-align: center;" type="text" placeholder="DIPLOMA BOARD">
+        </label>
+        <br>
+        <br>
+        <label>
+            Department <select name="Department">
+                <option value="select" style="text-align: center;">select</option>
+                <option value="MECHANICAL ENGINEERING" style="text-align: center;">MECHANICAL ENGINEERING</option>
+                <option value="CIVIL ENGINEERING" style="text-align: center;">CIVIL ENGINEERING</option>
+                <option value="ELECTRICAL ENGINEERING" style="text-align: center;">ELECTRICAL ENGINEERING</option>
+                <option value="COMPUTER SCIENCE ENGINEERING" style="text-align: center;">COMPUTER SCIENCE ENGINEERING</option>
+                <option value="ELECTRICAL AND ELECTRONICS ENGINEERING" style="text-align: center;">ELECTRICAL AND ELECTRONICS ENGINEERING</option>
+            </select>
+        </label>
+        <p style="font-size: large;">Year of passing <input style="height: 25px; text-align: center;" type="date"></p>
+        <p style="font-size: large;">PERCENTAGE <input style="width: 30px; text-align: center;" type="number" > %</p>
+        <br>
+        <p style="font-size: large;"><b><u>HIGHEST QUALIFICATION</u></b></p>
+        
+        <label>
+            <input type="radio" value="UG" name="board">UG
+        </label>
+        <br>
+        <label>
+            <input type="radio" value="PG" name="board">PG
+        </label>
+        <br>
+        <label>
+            Department <select name="Department">
+                <option value="select" style="text-align: center;">select</option>
+                <option value="MECHANICAL ENGINEERING" style="text-align: center;">MECHANICAL ENGINEERING</option>
+                <option value="CIVIL ENGINEERING" style="text-align: center;">CIVIL ENGINEERING</option>
+                <option value="ELECTRICAL ENGINEERING" style="text-align: center;">ELECTRICAL ENGINEERING</option>
+                <option value="COMPUTER SCIENCE ENGINEERING" style="text-align: center;">COMPUTER SCIENCE ENGINEERING</option>
+                <option value="ELECTRICAL AND ELECTRONICS ENGINEERING" style="text-align: center;">ELECTRICAL AND ELECTRONICS ENGINEERING</option>
+            </select>
+        </label>
+        <p style="font-size: large;">Year of passing <input style="height: 25px; text-align: center;" type="date"></p>
+        <p style="font-size: large;">CGPA <input style="width: 30px; text-align: center;" type="number" ></p>
+
+    </main>
+    <br>
+    <footer>
+        <h3 style="font-family: 'Times New Roman', Times, serif;" >ADDRESS</h3>
+        <HR>
+            <label>
+                COUNTRY <select name="COUNTRY">
+                    <option value="select" style="text-align: center;">select</option>
+                    <option value="INDIA" style="text-align: center;">INDIA</option>
+                    <option value="USA" style="text-align: center;">USA</option>
+                    <option value="UK" style="text-align: center;">UK</option>
+                    <option value="GERMANY" style="text-align: center;">GERMANY</option>
+                    <option value="RUSSIA" style="text-align: center;">RUSSIA</option>
+                </select>
+            </label>
+        <BR>
+         <BR>   
+           <pre> DOOR NO <input style="text-align: center;" type="number" placeholder="door no"></pre>
+           <pre> AREA    <input style="text-align: center;" type="text" placeholder="area"></pre>
+           <pre> MANDAL  <input style="text-align: center;" type="text" placeholder="mandal"></pre>
+           <pre>DISTRICT <input style="text-align: center;" type="text" placeholder="district"></pre>
+           <label><pre>
+ STATE   <select style="width: 170px;" name="STATE">
+                <option value="select" style="text-align: center;">select</option>
+                <option value="AP" style="text-align: center;">AP</option>
+                <option value="TG" style="text-align: center;">TG</option>
+                <option value="TN" style="text-align: center;">TN</option>
+                <option value="KL" style="text-align: center;">KL</option>
+                <option value="UP" style="text-align: center;">UP</option>
+                <option value="MP" style="text-align: center;">MP</option>
+                <option value="KN" style="text-align: center;">KN</option>
+                <option value="MH" style="text-align: center;">MH</option>
+            </select></pre>
+        </label>
+           <pre> PINCODE <input style="text-align: center;" type="number" placeholder="pincode"></pre>
+           <br>
+
+           <div>
+            <input name="submit" type="submit" value="Sign Up">
+           </div>
+           </form>
+</body>
+</html>
